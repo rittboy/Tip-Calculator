@@ -2,7 +2,10 @@ const calcBtn = document.getElementById("calculate");
 const billAmt = document.getElementById("bill");
 const tipPct = document.getElementById("tip");
 const total = document.getElementById("total");
-
+/**
+ * takes value of bill input, and takes percentage 
+ * of tip put in, and calculates tgotal price on bill.
+ */
 function calculateTotal(){
     const billValue = billAmt.value;
     const tipValue = tipPct.value;
