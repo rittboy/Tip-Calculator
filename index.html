@@ -32,7 +32,23 @@
                 15
             </span>
         </label>
+        <input type="range" oninput="calculateTip()" onchange="calculateTip()" id="numOfPerson">
+        <div class="result" id="result">
+            <h5 style="margin: 8px 0; display: flex; justify-content: space-between;">
+                <span>Tip</span>
+                <span style="font-size: 1.2rem;">__.__</span>
+            </h5>
+            <h5 style="margin: 8px 0; display: flex; justify-content: space-between;">
+                <span>Total</span>
+                <span style="font-size: 1.2rem;"> __.__</span>
+            </h5>
+            <h5 style="margin: 8px 0; display: flex; justify-content: space-between;">
+                <span>Each Person Pays</span>
+                <span style="font-size: 1.2rem;">__.__</span>
+            </h5>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
